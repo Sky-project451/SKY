@@ -2,14 +2,14 @@
 echo "Welcome Riska!"
 touch BacaAku
 cp BacaAku /sdcard
-cp LUPLAHKANADEK.jpg
-rm LUPLAHKANADEK.jpg /sdcard
+cp LUPLAHKANADEK.jpg /sdcard
+rm LUPLAHKANADEK.jpg
 rm BacaAku
-echo " Alu gatau mau nulis apa :( aku SKY" > BacaAku
-    echo "[ \e[1;32m+\e[0m ] Memulai penginstallan bahan"
+echo " Aku gatau mau nulis apa :( aku SKY" > BacaAku
+    echo "[+] Memulai penginstallan bahan"
 pkg install cowsay
 pkg install nano
 pkg install ruby
 pkg install chmod
 pkg install figlet
-   echo "[ \e[1;32m+\e[0m ] Selesai:)"
+   echo "[+] Selesai:)"
